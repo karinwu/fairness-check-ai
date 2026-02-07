@@ -1,6 +1,6 @@
 This package is a Python toolkit for testing bias and assessing fairness in AI and predictive models. It is designed to help data scientists, ML engineers, and risk/compliance teams systematically evaluate whether model outcomes treat different groups fairly.
 
-The library focuses on models built from both traditional data sources and External Consumer Data and Information sources (ECDIS), including systems that use machine learning and broader artificial intelligence techniques. It provides an integrated workflow to detect potential unfair discrimination, compute group-level fairness metrics, and summarize results in a way that is suitable for model governance and documentation.
+The library focuses on models built from both traditional data sources and External Consumer Data and Information sources (ECDIS), including systems that use machine learning and broader AI techniques. It provides an integrated workflow to detect potential unfair discrimination, compute group-level fairness metrics, and summarize results in a way that is suitable for model governance and documentation.
 
 With fairness-check-ai, you can:
 
