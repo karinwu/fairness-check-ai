@@ -7,7 +7,7 @@ name = "faircheck-ai"
 version = "0.1.0"
 description = "A Python toolkit for testing bias and assessing fairness in AI and predictive models"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13, <3.14"
 license = {text = "MIT"}
 authors = [
     {name = "Karin Wu", email = "karin.wu@rgare.com"}
