@@ -7,7 +7,7 @@ name = "faircheck-ai"
 version = "0.1.0"
 description = "A Python toolkit for testing bias and assessing fairness in AI and predictive models"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 license = {text = "MIT"}
 authors = [
     {name = "Karin Wu", email = "karin.wu@rgare.com"}
@@ -58,14 +58,14 @@ addopts = "--cov=faircheck_ai --cov-report=html --cov-report=term-missing"
 
 [tool.black]
 line-length = 88
-target-version = ['py39']
+target-version = ['py313']
 include = '\.pyi?$'
 
 [tool.ruff]
 line-length = 88
 select = ["E", "F", "I", "N", "W"]
 ignore = []
-target-version = "py39"
+target-version = "py313"
 
 [tool.mypy]
 python_version = "3.13"
